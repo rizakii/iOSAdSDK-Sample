@@ -502,15 +502,15 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/riza/Documents/KiiPlatform/releasework/iOSAdSDK-Sample/AdSample",
+					"$(SRCROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdSample/AdSample-Prefix.pch";
 				INFOPLIST_FILE = "AdSample/AdSample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/riza/Documents/KiiPlatform/releasework/iOSAdSDK-Sample/AdSample/Adapters",
-					"/Users/riza/Documents/KiiPlatform/releasework/iOSAdSDK-Sample/AdSample",
+					"$(SRCROOT)",
+					"$(SRCROOT)/Adapters/",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -527,15 +527,15 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/riza/Documents/KiiPlatform/releasework/iOSAdSDK-Sample/AdSample",
+					"$(SRCROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdSample/AdSample-Prefix.pch";
 				INFOPLIST_FILE = "AdSample/AdSample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/riza/Documents/KiiPlatform/releasework/iOSAdSDK-Sample/AdSample/Adapters",
-					"/Users/riza/Documents/KiiPlatform/releasework/iOSAdSDK-Sample/AdSample",
+					"$(SRCROOT)",
+					"$(SRCROOT)/Adapters/",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -604,6 +604,7 @@
 				744355E1185AD2CF0093B936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		744355E2185AD2CF0093B936 /* Build configuration list for PBXNativeTarget "AdSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -612,6 +613,7 @@
 				744355E4185AD2CF0093B936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
